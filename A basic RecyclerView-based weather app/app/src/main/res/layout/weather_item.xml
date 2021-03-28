@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tv_weather_date"
+        android:layout_width="66dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_templ"
+        android:layout_width="59dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:textColor="#03A9F4"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_precip"
+        android:layout_width="62dp"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:textColor="#275970"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_text"
+        android:layout_width="156dp"
+        android:layout_height="78dp"
+        android:padding="10dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_weather_temph"
+        android:layout_width="62dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:textColor="#F44336"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
